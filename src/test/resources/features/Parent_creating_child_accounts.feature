@@ -9,6 +9,3 @@ Feature: Parent creating child accounts
     When I view the the kid list page
     Then I should see a link to add kid
     Then I am a logged in kid with an account balance greater than 0
-    And then this will update in Git
-    
-    
