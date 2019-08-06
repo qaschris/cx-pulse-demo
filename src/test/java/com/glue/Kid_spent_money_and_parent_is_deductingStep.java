@@ -6,7 +6,7 @@ import cucumber.api.java.en.When;
 import org.junit.Assert;
 
 //Scenario: Parent can remove money
-//        Given i am logged in as a parent THIS WAS FIRST
+//        Given i am logged in as a parent
 //        When i view my child who spent money
 //        Then i can deduct money from the child
 //
@@ -18,7 +18,7 @@ import org.junit.Assert;
 
 public class Kid_spent_money_and_parent_is_deductingStep {
 
-    @Given("^i am logged in as a parent THIS WAS FIRST$")
+    @Given("^i am logged in as a parent$")
     public void that_l_i_am_a_logged_in_parent() throws Throwable {
         Assert.assertEquals(true, true);
     }
