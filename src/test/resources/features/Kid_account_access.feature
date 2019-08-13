@@ -6,4 +6,4 @@ Feature: Kid account access
     Given i am a kid with an account
     When i log in after my parent has made an account
     Then i should see my account balance
-    And this is updated for NZ
+    And Chris runs a demo
