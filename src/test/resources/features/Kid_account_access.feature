@@ -1,8 +1,8 @@
 Feature: Kid account access
   The children should be able to log into their accounts 
   and see how much money they can spend
-
-@tags
+  
+  
 
   Scenario: kid should log in
     Given i am a kid with an account
